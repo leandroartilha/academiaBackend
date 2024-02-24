@@ -18,7 +18,7 @@ namespace artsfitness.Controllers
 
         // GET: api/<GraficosController>
         [HttpGet]
-        [ActionName("Pegar Faturamento")]
+        [ActionName("Pegar Faturament")]
         public ActionResult<double> GetFaturamento()
         {
             var faturamento = _graficoService.GetFaturamentoTotal();
